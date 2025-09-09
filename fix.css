@@ -1,0 +1,62 @@
+.logo img{
+    position: relative;
+    top: 4px;
+}
+
+.nav-links a.active{
+        background: linear-gradient(135deg, #667eea, #764ba2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.hero, .stats{
+        border-radius: 20px;
+}
+
+.feature-card, nav, footer{
+    background: #fff;
+}
+
+.btn{
+    width: 185px;
+}
+
+.nav-links a{
+    font-weight: 400;
+}
+
+.nav-links a.active{
+    font-weight: 500;
+}
+
+.button-group{
+    margin-bottom: 0;
+}
+
+.feature-card p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.feature-card h3{
+    margin-bottom: 8px;
+}
+
+.hero .subtitle {
+    margin-bottom: 24px;
+}
+
+.stat-item p{
+    color: #666666;
+}
+
+
+.btn-secondary:hover{
+box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+
+}
+
+.footer-links a{
+    text-decoration: none !important;
+}
